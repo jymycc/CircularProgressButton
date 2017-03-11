@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#ffffff"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.jym.demo.MainActivity">
+
+
+    <com.dd.CircularProgressButton
+        android:id="@+id/circularButton1"
+        android:layout_width="196dp"
+        android:layout_height="70dp"
+        android:textColor="@color/cpb_white"
+        android:textSize="18sp"
+        app:cpb_cornerRadius="50dp"
+        app:cpb_colorProgress="@color/cpb_green"
+        app:cpb_colorIndicator="@color/cpb_red"
+        app:cpb_textComplete="complete"
+        app:cpb_selectorComplete="@color/cpb_blue"
+        app:cpb_selectorIdle="@color/cpb_blue"
+        android:textAllCaps="false"
+        app:cpb_textIdle="complete"
+        app:cpb_textProgress="count\n5s"/>
+
+</RelativeLayout>
