@@ -4,7 +4,7 @@
 Add it to your build.gradle with:
 ```
 allprojects {
-    epositories {
+    repositories {
         maven { url "https://jitpack.io" }
     }
 }
